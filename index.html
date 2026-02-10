@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/style.css">
+
+ <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body class=" flex flex-col md:flex-row items-center justify-center bg-[hsl(233,47%,7%)] md:h-screen">
+
+  <main class=" flex flex-col md:flex-row-reverse items-center justify-center mt-[4rem] w-[20rem] md:w-[70rem] mb-[4rem] md:mt-0">
+    <section>
+      <img class="w-[100%] block md:hidden relative rounded-tl-md rounded-tr-md md:rounded-none" src="/images/image-header-mobile.jpg" alt="">
+      <img class="hidden md:block  md:w-[70rem] md:relative md:h-[27rem]"  src="/images/image-header-desktop.jpg" alt="">
+      <div class="bg-[hsla(277,64%,61%,0.6)] h-[14.8rem] md:h-[27rem] w-[20rem] md:w-[32.9rem] absolute insert-0 bottom-[23.5rem] md:bottom-[12rem] rounded-tl-md rounded-tr-md md:rounded-none"></div>
+    </section> 
+    <section class="flex flex-col bg-[hsl(244,37%,16%)] justify-center md:justify-start items-cente md:items-start px-4 md:px-10 md:gap-[15px] rounded-bl-md rounded-br-md md:rounded-none">
+      <div class=" flex flex-col items-center text-center my-[30px]">
+        <h2 class=" text-center md:text-start text-[35px] text-bold text-white md:px-10 md:mt-[3rem]">Get <span class="text-[hsl(277,64%,61%)]">insights</span> that help your business grow.</h2>
+        <p class="text-white md:text-start md:mt-4 md:px-10 text-[18px] opacity-66">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+      </div>
+      <div class="flex flex-col md:flex-row text-[18px] text-white items-center md:px-10 text-start md:text-start justify-center md:justify-start md:items-start gap-[3rem] mb-[3rem]">
+        <div class="text-center md:text-start">
+        <h2 class="text-[25px]">10k+</h2>
+        <p class="opacity-66">companies</p>
+        </div>
+        <div class="text-center md:text-start">
+        <h2 class="text-[25px]">314</h2>
+        <p class="opacity-66">templates</p>
+        </div>
+        <div class="text-center md:text-start">
+        <h2 class="text-[25px]">12m+</h2>
+        <p class="opacity-66">queries</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  
+
+  
+
+   
+   
+   
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>. -->
+  </div>
+</body>
+</html>
